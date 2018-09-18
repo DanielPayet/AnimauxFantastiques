@@ -10,23 +10,23 @@ public class AnimauxFantastiques {
     AnimauxFantastiques() {
     }
 
-    String getNom() {
+    public String getNom() {
         return nom;
     }
 
-    String getClassification() {
+    public String getClassification() {
         return classification;
     }
 
-    String getHabitat() {
+    public String getHabitat() {
         return habitat;
     }
 
-    String getPremierApercu() {
+    public String getPremierApercu() {
         return premierApercu;
     }
 
-    String getDescription() {
+    public String getDescription() {
         return description;
     }
 }
