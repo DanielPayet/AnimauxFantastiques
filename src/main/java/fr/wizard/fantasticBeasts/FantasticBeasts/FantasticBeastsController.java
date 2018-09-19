@@ -11,14 +11,14 @@ import java.util.Arrays;
 public class FantasticBeastsController {
 
     @RequestMapping("/animaux")
-    public FantasticBeasts[] getAll() {
+    public FantasticBeast[] getAll() {
         return DataBase.getData();
     }
 
     @RequestMapping("/animal")
-    public FantasticBeasts getAnimalByName(@RequestParam(value = "nom", defaultValue = "") String nom) {
+    public FantasticBeast getAnimalByName(@RequestParam(value = "nom", defaultValue = "") String nom) {
         if (!nom.equals("")) {
-            return Arrays.stream(DataBase.getData()).filter((FantasticBeasts fantasticBeasts) -> fantasticBeasts.getNom().equals(nom)).findFirst().get();
+            return Arrays.stream(DataBase.getData()).filter((FantasticBeast fantasticBeasts) -> fantasticBeasts.getNom().equals(nom)).findFirst().get();
         }
         return null;
     }
