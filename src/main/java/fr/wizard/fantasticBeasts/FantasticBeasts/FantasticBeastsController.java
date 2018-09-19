@@ -12,7 +12,7 @@ import java.util.Arrays;
 @RestController
 public class FantasticBeastsController {
 
-    @RequestMapping("/animaux")
+    @RequestMapping("/animals")
     public ArrayList<Beast> getBeasts() {
         return DataBase.getBeasts();
     }

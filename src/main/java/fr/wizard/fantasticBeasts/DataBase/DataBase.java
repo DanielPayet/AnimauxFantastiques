@@ -9,10 +9,7 @@ import org.springframework.core.io.ClassPathResource;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class DataBase {
     private static Map<Integer, Beast> beasts;
@@ -48,6 +45,9 @@ public class DataBase {
     // LOAD AND SAVE ---------------------------------------
 
     public static void load() {
+        DataBase.beasts = new HashMap<Integer, Beast>();
+        DataBase.locations = new HashMap<Integer, Location>();
+        DataBase.classifications = new HashMap<Integer, Classification>();
         /*
         try {
             //DataBase.beasts = new Gson().fromJson(new BufferedReader(new FileReader(new ClassPathResource("static/fantastic_beasts.json").getFile())), ArrayList<Beast>.class);
