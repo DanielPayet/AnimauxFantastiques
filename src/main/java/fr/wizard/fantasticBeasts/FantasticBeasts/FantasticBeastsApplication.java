@@ -1,13 +1,13 @@
-package fr.wizard.animauxfantastiques.animauxfantastiques;
+package fr.wizard.fantasticBeasts.FantasticBeasts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AnimauxFantastiquesApplication {
+public class FantasticBeastsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AnimauxFantastiquesApplication.class, args);
+		SpringApplication.run(FantasticBeastsApplication.class, args);
 	}
 
 

@@ -1,13 +1,13 @@
-package fr.wizard.animauxfantastiques.animauxfantastiques;
+package fr.wizard.fantasticBeasts.FantasticBeasts;
 
-public class AnimauxFantastiques {
+public class FantasticBeasts {
     private String nom = "";
     private String classification = "";
     private String habitat = "";
     private String premierApercu = "";
     private String description = "";
 
-    AnimauxFantastiques() {
+    FantasticBeasts() {
     }
 
     public String getNom() {
