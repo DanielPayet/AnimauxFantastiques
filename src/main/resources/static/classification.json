@@ -23,5 +23,10 @@
     "id":5,
     "name":"XXXXX",
     "description":"Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+  },
+  {
+    "id":6,
+    "name":"XX-XXXX",
+    "description": "Chevaux ailés"
   }
 ]
