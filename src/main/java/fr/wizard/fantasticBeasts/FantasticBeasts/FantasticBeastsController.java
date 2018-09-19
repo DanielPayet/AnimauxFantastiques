@@ -11,13 +11,13 @@ public class AnimauxFantastiquesController {
 
     @RequestMapping("/animaux")
     public AnimauxFantastiques[] getAll() {
-        return BaseDeDonneeJson.getData();
+        return DataBase.getData();
     }
 
     @RequestMapping("/animal")
     public AnimauxFantastiques getAnimalByName(@RequestParam(value = "nom", defaultValue = "") String nom) {
         if (!nom.equals("")) {
-            return Arrays.stream(BaseDeDonneeJson.getData()).filter((AnimauxFantastiques animauxFantastiques) -> animauxFantastiques.getNom().equals(nom)).findFirst().get();
+            return Arrays.stream(DataBase.getData()).filter((AnimauxFantastiques animauxFantastiques) -> animauxFantastiques.getNom().equals(nom)).findFirst().get();
         }
         return null;
     }
