@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "X",
+    "description": "Animal ennuyeux"
+  },
+  {
+    "id": 2,
+    "name": "XX",
+    "description": "Inoffensif / Peut être domestiqué"
+  },
+  {
+    "id": 3,
+    "name": "XXX",
+    "description": "Ne pose pas de problème à un sorcier compétent"
+  },
+  {
+    "id": 4,
+    "name": "XXXX",
+    "descritpion":"Dangereux / Exige une connaissance spécialisée / Maîtrise possible par un sorcier expérimenté"
+  },
+  {
+    "id":5,
+    "name":"XXXXX",
+    "description":"Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+  }
+]
