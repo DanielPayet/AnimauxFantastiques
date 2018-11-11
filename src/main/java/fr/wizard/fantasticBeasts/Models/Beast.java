@@ -3,7 +3,6 @@ package fr.wizard.fantasticBeasts.Models;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import fr.wizard.fantasticBeasts.DataBase.DataBase;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Beast implements JsonModel {
@@ -45,6 +44,10 @@ public class Beast implements JsonModel {
     @JsonProperty("id")
     public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
 

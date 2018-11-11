@@ -23,6 +23,13 @@ public class DataBase {
         return DataBase.beasts.get(beastId);
     }
 
+    // No idea how to save to the json file, what are those json annotation ?
+    public static Beast saveBeast(Beast newBeast) {
+        // Set ID
+        // Save in json
+        return newBeast;
+    }
+
     public static Location getLocation(int locationId) {
         return DataBase.locations.get(locationId);
     }

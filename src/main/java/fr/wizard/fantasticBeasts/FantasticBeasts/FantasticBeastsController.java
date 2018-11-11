@@ -3,36 +3,54 @@ package fr.wizard.fantasticBeasts.FantasticBeasts;
 import fr.wizard.fantasticBeasts.DataBase.DataBase;
 import fr.wizard.fantasticBeasts.Models.Beast;
 import fr.wizard.fantasticBeasts.Models.Classification;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @RestController
 public class FantasticBeastsController {
 
-    @RequestMapping("/beasts")
+    @GetMapping("/beasts")
     public List<Beast> getBeasts() {
         return DataBase.getBeasts();
     }
 
-    @RequestMapping("/beasts/{id}")
+    @GetMapping("/beasts/{id}")
     public Beast getBeast(@PathVariable("id") int id) {
         return DataBase.getBeast(id);
     }
 
-    @RequestMapping("/classifications")
+    @PostMapping("/beasts")
+    Beast newBeast(@RequestBody Beast newBeast) {
+        return DataBase.saveBeast(newBeast);
+    }
+
+    @DeleteMapping("/beasts")
+    ResponseEntity deleteBeast(@RequestBody Beast beastToDelete) {
+        // Kill that freaking beast
+        /*
+        if( couldntDotIt ) {
+            return ResponseEntity.ok(HttpStatus.CONFLICT);
+        }
+         */
+        return ResponseEntity.ok(HttpStatus.OK);
+    }
+
+    @GetMapping("/classifications")
     public List<Classification> getClassifications() {
         return DataBase.getClassifications();
     }
 
-    @RequestMapping("/classifications/{id}")
+    @GetMapping("/classifications/{id}")
     public Classification getClassification(@PathVariable("id") int id) {
         return DataBase.getClassification(id);
+    }
+
+    @GetMapping("/")
+    public ResponseEntity getRoot() {
+        return ResponseEntity.ok(HttpStatus.NOT_FOUND);
     }
 
 }
