@@ -19,13 +19,13 @@ public class Beast implements JsonModel {
     }
 
     @JsonProperty("classifications")
-    public Classification getClassificationsId() {
+    public Classification getClassification() {
         return DataBase.getClassification(classificationId);
     }
 
     @JsonProperty("habitats")
-    public List<Location> getLocationId() {
-        if(locationId != null){
+    public List<Location> getLocations() {
+        if (locationId != null) {
             return DataBase.getLocations(locationId);
         }
         return null;
@@ -46,10 +46,36 @@ public class Beast implements JsonModel {
         return id;
     }
 
+    public int getClassificationId() {
+        return this.classificationId;
+    }
+
+    public int[] getLocationsId() {
+        return this.locationId;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setClassificationId(int classificationId) {
+        this.classificationId = classificationId;
+    }
+
+    public void setLocationId(int[] locationId) {
+        this.locationId = locationId;
+    }
+
+    public void setFirstSeen(String firstSeen) {
+        this.firstSeen = firstSeen;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
-
-
 

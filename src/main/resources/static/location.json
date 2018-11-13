@@ -1,177 +1,142 @@
 [
   {
     "id": 1,
-    "name": "Monde entier",
-    "description": ""
+    "name": "Monde entier"
   },
   {
     "id": 2,
-    "name": "Bulgarie",
-    "description": ""
+    "name": "Bulgarie"
   },
   {
     "id": 3,
-    "name": "Scandinavie",
-    "description": ""
+    "name": "Scandinavie"
   },
   {
     "id": 4,
-    "name": "Lacs",
-    "description": ""
+    "name": "Lacs"
   },
   {
     "id": 5,
-    "name": "Égypte",
-    "description": ""
+    "name": "Égypte"
   },
   {
     "id": 6,
-    "name": "Océan Atlantique",
-    "description": ""
+    "name": "Océan Atlantique"
   },
   {
     "id": 7,
-    "name": "Pointe nord de l'Écosse",
-    "description": ""
+    "name": "Pointe nord de l'Écosse"
   },
   {
     "id": 8,
-    "name": "île fictive de Drear-la-Lugubre",
-    "description": ""
+    "name": "île fictive de Drear-la-Lugubre"
   },
   {
     "id": 9,
-    "name": "Russie",
-    "description": ""
+    "name": "Russie"
   },
   {
     "id": 10,
-    "name": "Arizona",
-    "description": ""
+    "name": "Arizona"
   },
   {
     "id": 11,
-    "name": "Inde",
-    "description": ""
+    "name": "Inde"
   },
   {
     "id": 12,
-    "name": "Afrique orientale",
-    "description": ""
+    "name": "Afrique orientale"
   },
   {
     "id": 13,
-    "name": "Afrique",
-    "description": ""
+    "name": "Afrique"
   },
   {
     "id": 14,
-    "name": "Grande-Bretagne",
-    "description": ""
+    "name": "Grande-Bretagne"
   },
   {
     "id": 15,
-    "name": "Côtes rocheuses",
-    "description": ""
+    "name": "Côtes rocheuses"
   },
   {
     "id": 16,
-    "name": "Angleterre",
-    "description": ""
+    "name": "Angleterre"
   },
   {
     "id": 17,
-    "name": "Forêts",
-    "description": ""
+    "name": "Forêts"
   },
   {
     "id": 18,
-    "name": "Europe",
-    "description": ""
+    "name": "Europe"
   },
   {
     "id": 19,
-    "name": "Montagnes",
-    "description": ""
+    "name": "Montagnes"
   },
   {
     "id": 20,
-    "name": "Europe du Nord",
-    "description": ""
+    "name": "Europe du Nord"
   },
   {
     "id": 21,
-    "name": "Amérique du Nord",
-    "description": ""
+    "name": "Amérique du Nord"
   },
   {
     "id": 22,
-    "name": "Île Maurice",
-    "description": ""
+    "name": "Île Maurice"
   },
   {
     "id": 23,
-    "name": "Prison d'Azkaban",
-    "description": ""
+    "name": "Prison d'Azkaban"
   },
   {
     "id": 24,
-    "name": "Extrême-Orient",
-    "description": ""
+    "name": "Extrême-Orient"
   },
   {
     "id": 25,
-    "name": "Sud-est de l'Angleterre",
-    "description": ""
+    "name": "Sud-est de l'Angleterre"
   },
   {
     "id": 26,
-    "name": "Îles Fidji",
-    "description": ""
+    "name": "Îles Fidji"
   },
   {
     "id": 27,
-    "name": "Grèce",
-    "description": ""
+    "name": "Grèce"
   },
   {
     "id": 28,
-    "name": "Ouest de l'Angleterre",
-    "description": ""
+    "name": "Ouest de l'Angleterre"
   },
   {
     "id": 29,
-    "name": "Sud de l'Allemagne",
-    "description": ""
+    "name": "Sud de l'Allemagne"
   },
   {
     "id": 30,
-    "name": "Australie",
-    "description": ""
+    "name": "Australie"
   },
   {
     "id": 31,
-    "name": "Grande-Bretagne",
-    "description": ""
+    "name": "Grande-Bretagne"
   },
   {
     "id": 32,
-    "name": "Irlande",
-    "description": ""
+    "name": "Irlande"
   },
   {
     "id": 33,
-    "name": "Jungle",
-    "description": ""
+    "name": "Jungle"
   },
   {
     "id": 34,
-    "name": "Bornéo",
-    "description": ""
+    "name": "Bornéo"
   },
   {
     "id": 35,
-    "name": "Amérique",
-    "description": ""
+    "name": "Amérique"
   }
 ]

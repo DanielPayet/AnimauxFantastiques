@@ -1,6 +1,6 @@
 package fr.wizard.fantasticBeasts.Models;
 
 public interface JsonModel {
-    int id = 0;
+    int id = -1;
     int getId();
 }
