@@ -19,7 +19,7 @@ public class BeastsController {
     public List<Beast> getBeasts(@RequestParam(value = "location", required = false) String location, @RequestParam(value = "category", required = false) String category) {
         List<Beast> beasts = DataBase.getBeasts();
         if (location != null) {
-            int locationId = DataBase.getLocations().stream().filter(locationDataBase -> locationDataBase.getName().toString().equals("Monde entier")).findFirst().get().getId();
+            int locationId = DataBase.getLocations().stream().filter(locationDataBase -> locationDataBase.getName().toString().equals(location)).findFirst().get().getId();
             beasts = beasts.stream().filter((beast -> beast.getLocations() != null)).filter(beast -> Arrays.stream(beast.getLocationsId()).anyMatch(id -> id == locationId)).collect(Collectors.toList());
         }
         if (category != null) {
