@@ -10,6 +10,24 @@ Cache-Control: no-cache
 
 ###
 
+GET http://localhost:8080/beasts?location=Monde%20entier
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/beasts?category=XX
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/beasts?location=Monde%20entier&category=XX
+Accept: */*
+Cache-Control: no-cache
+
+###
+
 POST http://localhost:8080/beasts/
 Content-Type: application/json
 

@@ -1,5 +1,6 @@
 package fr.wizard.fantasticBeasts.Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import fr.wizard.fantasticBeasts.DataBase.DataBase;
 
@@ -46,10 +47,12 @@ public class Beast implements JsonModel {
         return id;
     }
 
+    @JsonIgnore
     public int getClassificationId() {
         return this.classificationId;
     }
 
+    @JsonIgnore
     public int[] getLocationsId() {
         return this.locationId;
     }
