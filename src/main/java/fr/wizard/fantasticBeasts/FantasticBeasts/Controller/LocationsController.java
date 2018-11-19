@@ -27,8 +27,8 @@ public class LocationsController {
         return new ResponseEntity<>(LocationDAO.save(newLocation), HttpStatus.CREATED);
     }
 
-    @PutMapping("/locations/{id}")
-    public Location putLocation(@PathVariable("id") int id, @RequestBody Location updateLocation) {
+    @PatchMapping("/locations/{id}")
+    public Location patchLocation(@PathVariable("id") int id, @RequestBody Location updateLocation) {
         return LocationDAO.update(id, updateLocation);
     }
 

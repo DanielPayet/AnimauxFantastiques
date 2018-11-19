@@ -40,8 +40,8 @@ public class BeastsController {
         return new ResponseEntity<>(BeastDAO.save(newBeast), HttpStatus.CREATED);
     }
 
-    @PutMapping("/beasts/{id}")
-    public Beast putBeast(@PathVariable("id") int id, @RequestBody Beast updateBeast) {
+    @PatchMapping("/beasts/{id}")
+    public Beast patchBeast(@PathVariable("id") int id, @RequestBody Beast updateBeast) {
         return BeastDAO.update(id, updateBeast);
     }
 

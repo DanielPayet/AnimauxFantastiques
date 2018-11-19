@@ -27,8 +27,8 @@ public class ClassificationsController {
         return new ResponseEntity<>(ClassificationDAO.save(newClassification), HttpStatus.CREATED);
     }
 
-    @PutMapping("/classifications/{id}")
-    public Classification putClassification(@PathVariable("id") int id, @RequestBody Classification updateClassification) {
+    @PatchMapping("/classifications/{id}")
+    public Classification patchClassification(@PathVariable("id") int id, @RequestBody Classification updateClassification) {
         return ClassificationDAO.update(id, updateClassification);
     }
 

@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 import static java.util.Objects.requireNonNull;
 
 public class BeastDAO extends DAO {
-    private static String filePath = "static/fantastic_beasts.json";
+    private static String filePath = staticPath + "fantastic_beasts.json";
 
     public static Map<Integer, Beast> load() {
         return Arrays.stream(requireNonNull(getJSON(filePath, Beast[].class))).collect(Collectors.toMap(Beast::getId, beast -> beast));

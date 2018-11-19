@@ -9,3 +9,16 @@ Accept: */*
 Cache-Control: no-cache
 
 ###
+
+POST http://localhost:8080/beasts/
+Content-Type: application/json
+
+{
+  "name": "ThomasSauvage",
+  "classificationId": null,
+  "locationId": null,
+  "firstSeen": "Harry Potter 8",
+  "description": "Thomas code php sauvage"
+}
+
+###

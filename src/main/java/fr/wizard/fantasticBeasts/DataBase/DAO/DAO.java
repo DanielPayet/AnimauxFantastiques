@@ -7,6 +7,7 @@ import org.springframework.core.io.ClassPathResource;
 import java.io.*;
 
 class DAO {
+    protected static String staticPath = "static/";
     static void saveJson(String file, Object o) {
         try {
             Writer writer = new FileWriter(file);
