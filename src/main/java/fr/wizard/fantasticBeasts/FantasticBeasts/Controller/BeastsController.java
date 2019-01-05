@@ -39,8 +39,11 @@ public class BeastsController {
     }
 
     @PatchMapping("/beasts/{id}")
-    public Beast patchBeast(@PathVariable("id") int id, @RequestBody Beast updateBeast) {
-        return BeastDAO.update(id, updateBeast);
+    public ResponseEntity  patchBeast(@PathVariable("id") int id, @RequestBody Beast updateBeast) {
+        if( DataBase.beasts.get(id) == null){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.ok(BeastDAO.update(id, updateBeast));
     }
 
     @DeleteMapping("/beasts/{id}")

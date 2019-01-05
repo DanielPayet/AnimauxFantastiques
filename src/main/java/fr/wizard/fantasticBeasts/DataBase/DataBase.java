@@ -32,7 +32,7 @@ public final class DataBase {
         return Arrays.stream(locationsId).mapToObj(DataBase::getLocation).collect(Collectors.toList());
     }
 
-    public static Classification getClassification(int classificationId) {
+    public static Classification getClassification(Integer classificationId) {
         return classifications.get(classificationId);
     }
 

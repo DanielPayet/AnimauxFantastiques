@@ -5,14 +5,19 @@ import com.google.gson.GsonBuilder;
 import org.springframework.core.io.ClassPathResource;
 
 import java.io.*;
+import java.util.Map;
 
 class DAO {
-    protected static String staticPath = "static/";
-    static void saveJson(String file, Object o) {
+    protected static String ressourceFolder = "static/";
+
+    static <T> void saveJson(String fileName, Map<Integer, T> o) {
         try {
-            Writer writer = new FileWriter(file);
-            Gson gson = new GsonBuilder().create();
-            gson.toJson(o, writer);
+            File file = new File("src/main/resources/static/" + fileName);
+            Writer writer = new FileWriter( file, false);
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            writer.write(gson.toJson(o.values().toArray()).replace("\n", "\r\n"));
+            writer.flush();
+            writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -20,7 +25,7 @@ class DAO {
 
     static <T> T getJSON(String path, Class<T> className) {
         try {
-            return new Gson().fromJson(new BufferedReader(new FileReader(new ClassPathResource(path).getFile())), className);
+            return new Gson().fromJson(new BufferedReader(new FileReader(new ClassPathResource(ressourceFolder + path).getFile())), className);
         } catch (IOException e) {
             e.printStackTrace();
             return null;

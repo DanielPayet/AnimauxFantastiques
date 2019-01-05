@@ -11,29 +11,29 @@ import java.util.stream.Collectors;
 import static java.util.Objects.requireNonNull;
 
 public class BeastDAO extends DAO {
-    private static String filePath = staticPath + "fantastic_beasts.json";
+    private static String fileName = "fantastic_beasts.json";
 
     public static Map<Integer, Beast> load() {
-        return Arrays.stream(requireNonNull(getJSON(filePath, Beast[].class))).collect(Collectors.toMap(Beast::getId, beast -> beast));
+        return Arrays.stream(requireNonNull(getJSON(fileName, Beast[].class))).collect(Collectors.toMap(Beast::getId, beast -> beast));
     }
 
     public static Beast save(Beast newBeast) {
         newBeast.setId(generateId());
         DataBase.beasts.put(newBeast.getId(), newBeast);
-        saveJson(filePath, DataBase.beasts);
+        saveJson(fileName, DataBase.beasts);
         return newBeast;
     }
 
     public static Beast update(int id, Beast updateBeast) {
         updateBeast.setId(id);
         mergeBeast(updateBeast);
-        saveJson(filePath, DataBase.beasts);
+        saveJson(fileName, DataBase.beasts);
         return DataBase.beasts.get(id);
     }
 
     public static void delete(int id) {
         DataBase.beasts.remove(id);
-        saveJson(filePath, DataBase.beasts);
+        saveJson(fileName, DataBase.beasts);
     }
 
     private static int generateId() {
@@ -45,7 +45,7 @@ public class BeastDAO extends DAO {
         if (beast.getName() != null) {
             old.setName(beast.getName());
         }
-        if (beast.getClassificationId() != -1) {
+        if (beast.getClassificationId() != null) {
             old.setClassificationId(beast.getClassificationId());
         }
         if (beast.getLocationsId() != null) {

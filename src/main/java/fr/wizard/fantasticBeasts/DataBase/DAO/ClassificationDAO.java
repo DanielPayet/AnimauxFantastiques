@@ -11,29 +11,29 @@ import java.util.stream.Collectors;
 import static java.util.Objects.requireNonNull;
 
 public class ClassificationDAO extends DAO {
-    private static String filePath = "static/classification.json";
+    private static String fileName = "classification.json";
 
     public static Map<Integer, Classification> load() {
-        return Arrays.stream(requireNonNull(getJSON(filePath, Classification[].class))).collect(Collectors.toMap(Classification::getId, classification -> classification));
+        return Arrays.stream(requireNonNull(getJSON(fileName, Classification[].class))).collect(Collectors.toMap(Classification::getId, classification -> classification));
     }
 
     public static Classification save(Classification newClassification) {
         newClassification.setId(generateId());
         DataBase.classifications.put(newClassification.getId(), newClassification);
-        saveJson(filePath, DataBase.classifications);
+        saveJson(fileName, DataBase.classifications);
         return newClassification;
     }
 
     public static Classification update(int id, Classification classification) {
         classification.setId(id);
         mergeClassification(classification);
-        saveJson(filePath, DataBase.classifications);
+        saveJson(fileName, DataBase.classifications);
         return DataBase.classifications.get(id);
     }
 
     public static void delete(int id) {
         DataBase.classifications.remove(id);
-        saveJson(filePath, DataBase.classifications);
+        saveJson(fileName, DataBase.classifications);
     }
 
     private static int generateId() {

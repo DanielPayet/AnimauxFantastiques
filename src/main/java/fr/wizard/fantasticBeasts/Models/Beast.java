@@ -4,13 +4,14 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import fr.wizard.fantasticBeasts.DataBase.DataBase;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Beast implements JsonModel {
     private int id;
     private String name;
-    private int classificationId;
-    private int[] locationId;
+    private Integer classificationId;
+    private Integer[] locationId;
     private String firstSeen;
     private String description;
 
@@ -21,13 +22,16 @@ public class Beast implements JsonModel {
 
     @JsonProperty("classifications")
     public Classification getClassification() {
-        return DataBase.getClassification(classificationId);
+        if(classificationId != null){
+            return DataBase.getClassification(classificationId);
+        }
+        return null;
     }
 
     @JsonProperty("habitats")
     public List<Location> getLocations() {
         if (locationId != null) {
-            return DataBase.getLocations(locationId);
+            return DataBase.getLocations(Arrays.stream(locationId).mapToInt(Integer::intValue).toArray());
         }
         return null;
     }
@@ -48,12 +52,12 @@ public class Beast implements JsonModel {
     }
 
     @JsonIgnore
-    public int getClassificationId() {
+    public Integer getClassificationId() {
         return this.classificationId;
     }
 
     @JsonIgnore
-    public int[] getLocationsId() {
+    public Integer[] getLocationsId() {
         return this.locationId;
     }
 
@@ -69,7 +73,7 @@ public class Beast implements JsonModel {
         this.classificationId = classificationId;
     }
 
-    public void setLocationId(int[] locationId) {
+    public void setLocationId(Integer[] locationId) {
         this.locationId = locationId;
     }
 
