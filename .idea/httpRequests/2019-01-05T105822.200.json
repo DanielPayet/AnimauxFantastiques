@@ -1,0 +1,998 @@
+[
+  {
+    "id": 1,
+    "nom": "Abraxan",
+    "apparition": "Harry Potter et la Coupe de feu.",
+    "description": "Cités pour la première fois par Hagrid dans le quatrième roman Harry Potter, ils sont décrits comme des chevaux ailés de très grande taille. Selon les dires de Mme Maxime, ils ne se nourrissent que de whisky « pur malt ». Ils servent d'attelage au carrosse de la délégation de Beauxbâtons. Hagrid laisse supposer qu'ils peuvent être montés, pour l'avoir fait lui-même. Les Abraxans ont des ailes et une robe palomino. Newt Scamander / Norbert Dragonneau (par l'intermédiaire de J. K. Rowling) les décrit dans son livre Les Animaux fantastiques comme une sous-espèce des chevaux volants : un Abraxan serait selon cet ouvrage « un palomino géant d'une force prodigieuse ». Il existe d'autres espèces de chevaux ailés : l'Ethonan brun, le Gronian gris et le Sombral (Thestral en anglais) noir, souvent invisible et très rare. ",
+    "classifications": {
+      "id": 6,
+      "categorie": "XX-XXXX",
+      "description": "Chevaux ailés"
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Acromantula",
+    "apparition": "Harry Potter et la Chambre des secrets.",
+    "description": "Une acromantula est une monstrueuse et gigantesque araignée hérissée de poils. Sa paire de pinces aiguisées et son venin en font une créature très dangereuse. Elle possède une intelligence quasi humaine et la faculté de parler. Les acromantula vivent groupées dans un antre tissé de toile. Cependant, comme la totalité des araignées, elles craignent terriblement les basilics. La plus connue est Aragog, qui fut élevée par Rubeus Hagrid durant sa scolarité, avant d'être relâchée dans le parc de l'école de Poudlard. Harry et Ron auront l'occasion de la rencontrer dans le tome 2. Aragog vit ensuite dans la forêt interdite avec sa compagne Mosag et leurs multiples enfants. Aragog meurt dans le tome 6. Harry recroisera également une acromantula, dans le labyrinthe de la troisième épreuve du Tournoi des Trois Sorciers, dans le tome 4. ",
+    "classifications": {
+      "id": 5,
+      "categorie": "XXXXX",
+      "description": "Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+    },
+    "habitats": [
+      {
+        "id": 33,
+        "nom": "Jungle"
+      },
+      {
+        "id": 34,
+        "nom": "Bornéo"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nom": "Augurey",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "D'après le guide Les Animaux fantastiques, l'Augurey (ou phénix irlandais) est de couleur vert très foncé, presque noir. Il ressemble à un petit vautour sous-alimenté. Il se nourrit de fées et de gros insectes. Il ne vole que sous la pluie et passe une grande partie de son temps caché dans un nid en forme de larme. Il est considéré comme un présage de mort. L'Augurey est également mentionné dans le film Les Animaux fantastiques et dans la pièce de théâtre Harry Potter et l'Enfant maudit. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 31,
+        "nom": "Grande-Bretagne"
+      },
+      {
+        "id": 32,
+        "nom": "Irlande"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Basilic",
+    "apparition": "Harry Potter et la Chambre des secrets",
+    "description": "Le basilic (en anglais : basilisk) est inspiré de la créature mythologique du même nom. C'est un reptile gigantesque d'au moins six mètres de long (pouvant en atteindre quinze) et de l'épaisseur d'un gros tronc de chêne. Il peut vivre plusieurs centaines d'années (près de neuf cents ans) et naît d'un œuf de poulet couvé par un crapaud. Ses écailles sont vertes et brillantes et il possède de grands yeux jaunes. Pour tuer ses victimes, la créature a recours à ses crochets venimeux ou à ses yeux meurtriers qui tuent quiconque croise directement son regard (le voir à travers un filtre ou son reflet mène à la pétrification de la victime). Il est également un ennemi mortel des araignées mais redoute le chant du coq qui lui est fatal. Il possède les mêmes caractéristiques que les serpents (il mue à intervalles réguliers) et se nourrit de vertébrés. ",
+    "classifications": {
+      "id": 5,
+      "categorie": "XXXXX",
+      "description": "Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+    },
+    "habitats": null
+  },
+  {
+    "id": 5,
+    "nom": "Bicorne",
+    "apparition": "Harry Potter et la Chambre des secrets",
+    "description": "Le bicorne (également appelé bigorne en France) est une créature mi-homme, mi-animal, pouvant avoir une apparence différente selon les versions. Il peut s'agir d'un tigre, d'une vache, ou encore d'une panthère, mais régulièrement représentés avec une tête d’homme à cornes. Ses cornes, réduites en poudre, entrent dans la composition du polynectar préparé par Hermione. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 6,
+    "nom": "Billywig",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "D'après les informations tirées du guide Les Animaux fantastiques, le billywig est un insecte dont l'extrémité inférieure est pourvue d'un dard long et fin. Il mesure un peu plus d'un centimètre de long et est d'une couleur bleu saphir étincelante. La vitesse à laquelle il vole le rend la plupart du temps invisible aux yeux des moldus comme des sorciers. Ses ailes sont accrochées au sommet de sa tête et leur vitesse fait tourner la créature sur elle-même lorsqu'elle vole. La victime d'une piqûre de Billywig souffre de tournis puis d'un état de lévitation. Cependant, si une personne se fait piquer trop souvent, elle peut flotter dans les airs pendant plusieurs jours de suite sans pouvoir redescendre et cet état de lévitation peut être permanent dans le cas d'une réaction allergique violente. Les dards séchés de Billywig entrent dans la composition de plusieurs potions et feraient partie des ingrédients de la recette des Fizwizbiz. Dans le film Les Animaux Fantastiques, Norbert Dragonneau héberge dans sa valise magique plusieurs billywigs, dont certains s'échapperont dans la ville de New York. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 30,
+        "nom": "Australie"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nom": "Botruc",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban",
+    "description": "D'après les informations tirées du guide Les Animaux fantastiques, le botruc (en anglais bowtruckle) est une petite créature d'une vingtaine de centimètres de hauteur maximum, avec des yeux marron et deux longs doigts pointus à chaque main et possédant une apparence semblable à un mélange d'écorces et de brindilles (ce qui l'aide à se camoufler dans son environnement naturel). Il se nourrit principalement d'insectes et de cloportes. Il a une tête plate avec des yeux semblables à des scarabées brillants. Le botruc est le gardien de l'arbre dans lequel il vit et sa présence assure un bois de qualité pour la fabrication des baguettes magiques. Habituellement paisible, le botruc peut attaquer un humain s'il est menacé, ce qui comprend aussi bien les agressions faites à son arbre qu'à lui-même. Les Botrucs sont étudiés en cinquième année à Poudlard, lors des cours de soins aux créatures magiques de Wilhelmina Gobe-Planche. Au premier cours, les élèves doivent faire un dessin de la créature en indiquant très précisément toutes les parties du corps. Dans le film Les Animaux Fantastiques, Norbert Dragonneau héberge dans sa valise magique plusieurs botrucs dont l'un, Pickett, lui est particulièrement attaché et le sauve d'une condamnation à mort en le libérant de ses liens. Gnarlak, un gobelin qui trempe dans des affaires louches, cherche à se procurer Pickett en raison de sa capacité à crocheter les serrures. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 28,
+        "nom": "Ouest de l'Angleterre"
+      },
+      {
+        "id": 30,
+        "nom": "Australie"
+      },
+      {
+        "id": 17,
+        "nom": "Forêts"
+      },
+      {
+        "id": 3,
+        "nom": "Scandinavie"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nom": "Boursouf",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Les boursoufs (en anglais puffskein) ont l'apparence de minuscules balles de fourrure couleur crème et à la langue extensible, qui émettent un bourdonnement grave. Ces créatures font souvent de bons compagnons, surtout pour les enfants sorciers. Les boursouflets (en anglais Pygmy Puff) en sont dérivés, seule la couleur devient plus vive. Ginny Weasley possède un boursouflet violet (nommé Arnold) à partir de sa cinquième année et Ron Weasley possédait un boursouf durant son enfance. Les boursoufs et boursouflets sont vendus à la ménagerie magique, ainsi que chez Weasley & Weasley au chemin de Traverse (où Ginny se procure le sien). ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nom": "Calmar géant",
+    "apparition": "Harry Potter à l'école des sorciers.",
+    "description": "Un calmar géant vit dans le lac du château de Poudlard, semblant amical et inoffensif envers les élèves qui s'amusent quelquefois à chatouiller ses tentacules. Le jeune frère de Colin Crivey, Denis, a été vraisemblablement rattrapé par le calmar et remis dans sa barque alors qu'il en était tombé, au moment de la traversée traditionnelle du lac par les nouveaux élèves de première année. Il est joueur et semble apprécier les toasts que jettent les élèves dans l'eau. Harry ne le croise pas en plongeant dans le lac lors de la deuxième épreuve du Tournoi des Trois Sorciers. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 10,
+    "nom": "Centaure",
+    "apparition": "Harry Potter à l'école des sorciers (Firenze).",
+    "description": "Les centaures sont des créatures possédant un corps de cheval dont la tête et le cou sont remplacés par un buste humain. Les centaures vivent en groupe et sont très intelligents. Ils sont considérés par le ministère de la Magie, et à leur demande, comme des créatures et non comme des êtres. Un troupeau de centaures (environ cinquante), que Harry et ses amis auront plusieurs fois l'occasion de rencontrer, habite dans la Forêt Interdite de Poudlard. Le groupe est composé notamment de Ronan, Bane, Magorian et Firenze. Ils sont quelquefois armés d'arcs et de flèches, et se passionnent pour la lecture de l'avenir dans les astres, mais n'interviennent jamais dans le cours des événements. Dans le tome 1, le centaure Firenze fait une exception en sauvant Harry de la créature se nourrissant de sang de licorne. Cette action sera d'ailleurs très mal perçue par le reste de la horde. Firenze est banni du troupeau en devenant professeur de divination à la place du professeur Trelawney dans le tome 5. Il enseigne aux élèves selon ses propres termes la « sagesse impartiale qui ne s'occupe pas des questions individuelles ». Les centaures sont très fiers de leur espèce et de leurs secrets. La horde s'emporte facilement en présence des sorciers lorsque le ministère britannique décide de réduire leurs territoires. Lorsque Dolores Ombrage, Harry et Hermione se rendent dans la forêt en cinquième année, ils font face à une cinquantaine de centaures en colère. Le professeur attaque Magorian avant d'être emportée par Bane dans les profondeurs de la forêt. Harry et Hermione sont tenus prisonniers un temps avant d'être sauvés par l’arrivée soudaine de Graup qui fait fuir le troupeau. Les centaures se battent néanmoins aux côtés de l'Ordre du Phénix durant la bataille de Poudlard. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 17,
+        "nom": "Forêts"
+      },
+      {
+        "id": 18,
+        "nom": "Europe"
+      },
+      {
+        "id": 27,
+        "nom": "Grèce"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "nom": "Chaporouge",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Le Chaporouge est une petite créature semblable à un nain ou à un gobelin, vivant dans les trous proches d'endroits où le sang a déjà coulé. Il essaie de tuer les Moldus égarés avec un gourdin. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "nom": "Chartier",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le Chartier (en anglais : Jarvey) ressemble à un grand furet, doué de parole. Une véritable conversation reste cependant difficile, puisque son vocabulaire est assez limité et souvent grossier. Les Chartiers vivent la plupart du temps sous terre où ils chassent les gnomes. Ils se nourrissent de taupes, de rats et de campagnols. Leta Lestrange, durant sa scolarité à Poudlard, aurait provoqué un incident avec un Chartier, mettant en danger la vie d'un autre élève. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 21,
+        "nom": "Amérique du Nord"
+      },
+      {
+        "id": 31,
+        "nom": "Grande-Bretagne"
+      },
+      {
+        "id": 32,
+        "nom": "Irlande"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "nom": "Chien à trois têtes",
+    "apparition": "Harry Potter à l'école des sorciers.",
+    "description": "Le chien à trois têtes (ou cerbère) est un gigantesque animal, qui, dans la mythologie grecque, est le gardien des enfers. Hagrid a possédé un chien à trois têtes qu'il avait appelé Touffu (en anglais Fluffy), et qui a été utilisé pour garder la pierre philosophale dans le tome 1. Le seul moyen de passer devant lui était de lui jouer de la musique pour l'endormir (Quirrell a ainsi utilisé un instrument « ressemblant à une harpe » et Harry une flûte. De la même manière, dans les légendes grecques, Orphée passe sans risque devant le Cerbère en lui jouant de la lyre. Selon l'auteur, Touffu serait parti vivre un temps dans la forêt interdite, avant d'être « rapatrié » en Grèce. Le terme \"cerbère\" (ou Chien des Enfers) n'apparaît pas dans les livres. La créature est nommée simplement Touffu ou « le chien à trois têtes ». ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 27,
+        "nom": "Grèce"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "nom": "Crabe de feu",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban (non nommé mais description correspondante)",
+    "description": "Le crabe de feu (en anglais fire crab) ressemble à une tortue dont la carapace serait incrustée de pierres précieuses. C'est une créature très recherchée, en danger constant étant donné que certains sorciers la chassent pour la fabrication de chaudrons grâce aux vertus de sa carapace. Il sait néanmoins se défendre en projetant des flammes par la partie postérieure de son corps. Les sorciers peuvent se procurer des crabes de feu à la ménagerie magique du chemin de Traverse. Rubeus Hagrid croise une espèce de cette créature avec une manticore pour donner naissance à ce qu'il appelle un Scroutt à pétard. En épreuve de BUSE de soins aux créatures magiques, les élèves doivent nourrir et nettoyer un crabe de feu sans subir de blessures graves. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 26,
+        "nom": "Îles Fidji"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "nom": "Crapaud et grenouille",
+    "apparition": "Harry Potter à l'école des sorciers",
+    "description": "Les crapauds dans Harry Potter peuvent être utilisés comme animaux de compagnie, mais sont considérés comme démodés. Néanmoins, à en croire l'histoire de Mondingus Fletcher lors de la première nuit de Harry au square Grimmaurd, les crapauds ont assez de valeur pour qu'on se risque à les voler. Neville possède un crapaud aux tendances fugueuses nommé Trevor, cadeau d'un de ses oncles et Ron possède une grenouille dans un aquarium chez lui. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 16,
+    "nom": "Croup",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Le croup (en anglais : crup) ressemble à un fox-terrier pourvu d'une queue fourchue. Il manifeste une grande fidélité aux sorciers mais se montre très agressif envers les Moldus. La créature se nourrie de tout ce qu'elle peut trouver, y compris du caoutchouc. Le croup est étudié lors d'un cours de soins aux créatures magiques de Rubeus Hagrid en cinquième année. Pour adopter un Croup, le sorcier doit passer un examen au Département de contrôle et de régulation des créatures magiques prouvant qu'il est capable de contrôler la créature dans une zone habitée par des Moldus. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 25,
+        "nom": "Sud-est de l'Angleterre"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "nom": "Demiguise",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Créature apparaissant dans le film Les Animaux fantastiques et mentionnée dans Harry Potter et les Reliques de la Mort. La demiguise est une créature pouvant se rendre invisible lorsqu'elle se sent menacée. Elle ressemble à un singe gracieux avec de grands yeux noirs mélancoliques. Elle est couverte d'une longue fourrure argentée et soyeuse. Ses poils, une fois tissés, sont utilisés pour fabriquer les capes d'invisibilité. Dans le film Les Animaux fantastiques, Norbert Dragonneau possède une demiguise nommée Dougal. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 24,
+        "nom": "Extrême-Orient"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "nom": "Démonzémerveille",
+    "apparition": "Les Animaux fantastiques (film, 2016).",
+    "description": "Le démonzémerveille (en anglais : Swoopingevil) est une étrange créature pouvant se présenter sous deux formes en particulier. Sous la première forme, il apparaît comme un cocon épineux possédant une sorte de filament permettant à une personne de la porter au bout de son doigt. Il peut alors être projeté et prendre sa deuxième forme, semblable à un gigantesque reptile en forme de papillon, aux ailes squelettiques. Le magizoologiste Norbert Dragonneau a découvert que son venin contenait un puissant sortilège d'amnésie qui sera utilisé pour « oublietter » la ville de New York dans le film Les Animaux fantastiques. Il semble avoir une appétence particulière pour le cerveau des humains. ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 13,
+        "nom": "Afrique"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "nom": "Détraqueur",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Les Détraqueurs (en anglais : Dementors) sont considérés comme des créatures parmi les plus répugnantes.  Ils sont enveloppés dans de grandes robes noires qui les masquent entièrement à l'exception de leurs mains, qui ont l'air de chair morte et moisie. Pour avancer, les Détraqueurs glissent sur le sol. Ils sont dépourvus d'âme, c'est pourquoi ils se nourrissent de celles de leurs victimes, de leurs joies et de leurs souvenirs heureux, ne laissant que des souvenirs malheureux. Seuls les sorciers peuvent les voir. Les moldus peuvent seulement sentir les effets de leur présence. Il semblerait que les cracmols soient également capables de les voir, même si ce point n'est pas éclairci. ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 23,
+        "nom": "Prison d'Azkaban"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "nom": "Diablotin",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le diablotin est un cousin du lutin et du farfadet. Il a un caractère malveillant et joue des tours. Il se nourrit d'insectes . ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 31,
+        "nom": "Grande-Bretagne"
+      },
+      {
+        "id": 32,
+        "nom": "Irlande"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "nom": "Dirico",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le dirico (en anglais : diricawl) est un oiseau incapable de voler. Tout comme le phénix, il peut disparaître et réapparaître à un autre endroit pour mieux échapper au danger. Chez les moldus, le dirico est plus connu sous le nom de dodo. Dans le film Les Animaux fantastiques, Norbert Dragonneau possède une femelle dirico et sa portée de poussins. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 22,
+        "nom": "Île Maurice"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "nom": "Doxy",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Molly Weasley, aidée de Harry, Ron, Hermione, Ginny, Fred et George, part à la chasse aux Doxys dans le salon du 12, square Grimmaurd. Un doxy est une petite créature recouverte d'une épaisse fourrure noire et ressemblant à une fée. Cette créature est pourvue de deux rangées de dents pointues et venimeuses et, en cas de morsure, il faut administrer un antidote le plus rapidement possible. Les doxy infestent les maisons et pondent des œufs dans les rideaux. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      },
+      {
+        "id": 21,
+        "nom": "Amérique du Nord"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nom": "Dragon",
+    "apparition": "Harry Potter à l'école des sorciers (Norbert, un bébé Norvégien à crête)",
+    "description": "Les dragons sont des gigantesques créatures reptiliennes capables de voler et de cracher du feu. Ils sont très difficiles à cacher et les Ministères de la Magie du monde entier travaillent d'arrache-pied pour maintenir leur existence secrète. L'élevage de dragons est interdit par la Convention des Sorciers depuis 1709 et leurs œufs sont interdits à la vente. Pour les préserver sans révéler leur existence au monde moldu, de nombreuses réserves existent de par le monde. Les dragons sont des ennemis difficiles pour un sorcier : il faut plusieurs sorts de Stupéfixion pour les terrasser et leur seul point faible sont les yeux. Certains charmes (notamment un charme inconnu utilisé par Fleur Delacour) peuvent les endormir. Les espèces de dragons mentionnées dans la saga sont au nombre de dix : ",
+    "classifications": {
+      "id": 5,
+      "categorie": "XXXXX",
+      "description": "Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nom": "Elfe de maison",
+    "apparition": "Harry Potter et la Chambre des secrets (Dobby)",
+    "description": "Les elfes de maison sont des créatures inspirées par les elfes de la mythologie nordique. Ils sont petits, ont la voix aiguë, les jambes très courtes et de grandes oreilles semblables à celles des chauves-souris. Ils ont de grands pouvoirs magiques : ils peuvent transplaner à tous moments et endroits (notamment dans l'enceinte de Poudlard), faire léviter des objets ou jeter des sorts sans incantation ni baguette. Ils n'ont en général pas le droit de faire usage de la magie sans l'autorisation de leur maître, et n'ont pas le droit de transporter une baguette magique. Leur devoir est de servir et respecter une famille pour toujours, et ne peuvent dire du mal de leur maître sans s'infliger une punition. Pour retrouver leur liberté, ils doivent recevoir un vêtement de leur maître. Les elfes de maison sont en effet liés à vie à leur maître, et il ne vient pas à la plupart l'idée de se rebeller contre cette situation. Et même dans ce cas, il leur est impossible de désobéir sans s'en auto-punir. Néanmoins, certains elfes de maisons, qui n'aiment pas leurs maîtres, peuvent être particulièrement retors, interprétant ou déformant les ordres qui leur ont été donnés. Par exemple, un elfe peut remplir une baignoire d'eau bouillante parce que son maître lui a demandé un bain. Cette particularité oblige leurs maîtres à être particulièrement prudent dans l'élocution de leurs ordres. Il existe un Bureau de remplacement des elfes de maison au Département de contrôle et de régulation des créatures magiques du Ministère de la Magie. Une centaine d'elfes de maison travaillent dans les cuisines de Poudlard. Ils ne quittent presque jamais la cuisine en plein jour et ne sortent la nuit que pour nettoyer un peu et mettre des bûches dans le feu. On voit également plusieurs elfes de maison travailler au MACUSA dans le film Les Animaux Fantastiques, où leurs activités sont notamment le cirage des baguettes magiques et l'utilisation des ascenseurs. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 25,
+    "nom": "Épouvantard",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Un épouvantard (en anglais : Boggart) est une créature qui change d'aspect à volonté en produisant un claquement sonore et prend toujours la forme qui vous effraie le plus, c'est pourquoi personne ne sait à quoi il ressemble. De plus, il aime les endroits sombres et confinés comme les placards et les armoires, ce qui peut le relier au croque-mitaine de la mythologie classique. Seul Alastor Maugrey aurait connaissance de la véritable apparence d'un épouvantard, grâce à son œil magique. Lorsqu'il rencontre plusieurs personnes, l'épouvantard est désavantagé car il ne sait pas quelle forme prendre pour faire peur à tout le monde en même temps. Certaines tentatives de réaliser l'exploit sont qualifiées de ridicules par le Professeur Remus Lupin. Pour le neutraliser, il suffit d'éclater de rire. Pour cela, il faut l'obliger à prendre une forme que l'on trouve désopilante en prononçant la formule « Riddikulus ». Pour qu'elle marche il faut penser très fort à la forme drôle qu'on voudrait qu'il prenne. Une fois contré, il passe à quelqu'un d'autre, et disparaît définitivement après un éclat de rire (du sorcier) en une multitude de petites volutes de fumées. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 26,
+    "nom": "Éruptif",
+    "apparition": "Vie et habitat des animaux fantastiques (2001)",
+    "description": "Un éruptif (erumpent en anglais) est une gigantesque créature africaine vaguement semblable à un rhinocéros. Sa peau cuirassée résiste à la plupart des sortilèges. L'éruptif possède également une imposante corne remplie d'un fluide très dangereux qui, lorsqu'il est injecté dans un matériau (vivant ou non), provoque l'explosion de ce dernier. Les éruptifs sont de nature relativement calme mais n'hésiteront pas à attaquer s'ils se sentent menacés. Ils sont particulièrement respectés par les sorciers et sorcières d'Afrique. Leur corne peut être utilisée dans le cadre de la préparation de potions. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 13,
+        "nom": "Afrique"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "nom": "Focifère",
+    "apparition": "Vie et habitat des animaux fantastiques",
+    "description": "Un focifère (fwooper en anglais) est un oiseau venant d'Afrique au plumage éclatant orange, rose, vert ou jaune. Ses plumes sont souvent utilisées par les amateurs d'écriture et de plumes fantaisie. Son chant, bien qu'agréable au départ, peut rendre fou celui qui l'écoute trop longtemps. Il ne peut être confié qu'a un sorcier compétent capable de lui appliquer le sortilège de Mutisme tous les mois. Norbert Dragonneau en possède un dans sa valise magique. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 13,
+        "nom": "Afrique"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "nom": "Géant",
+    "apparition": "Harry Potter et l'Ordre du phénix (Graup).",
+    "description": "Il est plus grand que le Troll puisqu'il peut mesurer jusqu'à sept ou huit mètres de haut. Hagrid est d'ailleurs un demi-géant, de par son père sorcier et de sa mère géante. Ils sont décrits comme extrêmement violents et se battent souvent entre eux. ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 19,
+        "nom": "Montagnes"
+      },
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "nom": "Gnome",
+    "apparition": "Harry Potter et la Chambre des secrets.",
+    "description": "Le gnome est caractérisé par une très petite taille (environ 30 centimètres), une tête d'une grosseur disproportionnée et des pieds durs et osseux. Dans la saga Harry Potter, ils infestent les jardins et sont considérés comme des nuisibles. C'est pourquoi il faut souvent dégnommer les jardins des sorciers en jetant les gnomes au loin après les avoir fait tournoyer pour leur donner le vertige et les rendre ainsi incapables de retrouver le chemin de leur terriers. Il est aussi possible d'utiliser un Jarvey pour se débarrasser d'un Gnome, bien que certains sorciers jugent cette méthode trop brutale. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      },
+      {
+        "id": 21,
+        "nom": "Amérique du Nord"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "nom": "Gobelin",
+    "apparition": "Harry Potter à l'école des sorciers.",
+    "description": "Les gobelins sont des êtres de taille moyenne (un peu plus grands que les elfes de maison) particulièrement intelligents et fiers. Ils ont la peau cireuse, des doigts fins, de longs pieds et une tête bombée beaucoup plus grosse que celle d'un humain. Ils se nourrissent principalement de viande crue, de racines et de champignons. Ils possèdent des pouvoirs magiques mais ne sont pas autorisés à faire usage d'une baguette magique, les sorciers se réservant ce luxe. Leurs fabrications de forgerons (armes, armures, bijoux) sont reconnues comme étant d'une exceptionnelle qualité et dotées de propriétés uniques (une lame fabriquée par des gobelins absorbe toute substance néfaste, ce qui la rend d'autant plus dangereuse que l'on s'en sert souvent). L'épée de Godric Gryffondor qui avait servi à tuer le basilic en est l'exemple le plus célèbre : elle a absorbé les propriétés du venin du basilic et peut dorénavant servir pour détruire un Horcruxe. Leur organisation sociale est manifestement différente de celle des sorciers et les notions de vente, d'achat et de prêt ne sont pas les mêmes que celles des sorciers (ils considèrent qu'un objet fabriqué par un gobelin et acheté doit être rendu au gobelin, ou à sa descendance une fois le décès de l'acheteur). Ils sont en général assez froids avec les sorciers mais travaillent avec eux, étant les responsables de la banque Gringotts. Les relations entre gobelins et sorciers ont souvent été tumultueuses, causant de nombreuses guerres à travers l'histoire du monde magique. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 31,
+    "nom": "Goule",
+    "apparition": "Harry Potter et la Chambre des secrets.",
+    "description": "La goule ressemble à un ogre crasseux aux dents proéminentes. Malgré son physique repoussant, elle n'est pas spécialement dangereuse. Elle habite en général dans les granges et les greniers et se nourrit de papillons de nuit. Il semblerait qu'elle sente très mauvais (elle propage une odeur semblable à celle des égouts). Cette étrange créature pelotonnée apparaît dans le tome 5 avec la goule meurtrière du 12, square Grimmaurd cachée dans des toilettes et reparaît dans le tome 7 avec la goule de la famille Weasley enfermée dans le grenier au-dessus de la chambre de Ron (déjà mentionnée dans le tome 2). Il l'utilise (en la déguisant avec un pyjama et des cheveux roux, aidé par Fred, George et M. Weasley) pour berner le ministère et pouvoir partir à la chasse aux horcruxes. Il l'installe pour cette raison dans sa chambre pour faire croire qu'il a l'éclabouille, une maladie extrêmement contagieuse. Elle a aussi un long nez. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": null
+  },
+  {
+    "id": 32,
+    "nom": "Grapcorne",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le grapcorne a la taille d'un tigre à dents de sabre, des tentacules de chaque côté de la tête et possède deux longues cornes, qui peuvent entrer dans la composition de certaines potions. Il habite dans les montagnes d'Europe. Dans le film Les Animaux fantastiques, Norbert Dragonneau héberge un grapcorne affectueux dans son local d'étude. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 19,
+        "nom": "Montagnes"
+      },
+      {
+        "id": 18,
+        "nom": "Europe"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "nom": "Hibou et chouette",
+    "apparition": "Harry Potter à l'école des sorciers.",
+    "description": "Les hiboux et les chouettes permettent la transmission de messages. Ils arrivent à retrouver instinctivement le destinataire du courrier dès lors qu'ils connaissent son nom, quel que soit l'endroit où il se trouve. Ils ont une relation forte avec leur maître, et semblent doués d'une intelligence primitive. De nombreux hiboux et chouettes habitent dans la volière de Poudlard. Ils peuvent être empruntés par n'importe quel élève souhaitant envoyer du courrier. Harry possède une chouette blanche au \"plumage de neige\" et aux yeux d'ambre, nommée Hedwige, qui fut tuée par un Mangemort au début du tome 7. Errol est le vieux hibou de la famille Weasley et Hermès est le hibou de Percy, le grand frère de Ron. À partir du tome 3, Ron possède lui aussi son propre hibou, Coquecigrue, offert par Sirius Black ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "nom": "Hippogriffe",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Un hippogriffe est une créature volante dont la tête, le torse, les ailes et les pattes avant sont celles d'un aigle et dont le corps (y compris les pattes postérieures et la queue) sont celles d'un cheval. Il a des yeux de couleur orange, mais sa robe peut avoir plusieurs nuances (comme noir d'encre, vert bronze, marron-rouge, gris-bleu et blanc rosé). L'envergure des ailes d'un hippogriffe adulte est d'environ quatre mètres. Une personne souhaitant approcher un hippogriffe doit le fixer dans les yeux sans cligner des yeux et le saluer en s'inclinant ; si l'animal s'incline à son tour, la personne peut le toucher et même le chevaucher. Les possesseurs d'hippogriffes sont tenus de les garder sous sortilège de désillusion pour éviter que les moldus ne les aperçoivent. Les hippogriffes sont réputés comme étant particulièrement susceptibles : Drago Malefoy l'apprend à ses dépens. Les hippogriffes sont carnivores et extrêmement dangereux tant qu'ils ne sont pas dressés ; cette étape ne doit être prise en charge que par des sorciers ou sorcières qualifiés. Les hippogriffes peuvent se nourrir d'insectes, d'oiseaux et de petits animaux. Ils construisent leurs nids sur le sol et y pondent un seul œuf qui éclot en vingt-quatre heures. Poudlard dispose d'au moins une douzaine d'hippogriffes pour les cours de soins aux créatures magiques. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 18,
+        "nom": "Europe"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "nom": "Joncheruine",
+    "apparition": "Harry Potter et le Prince de sang-mêlé.",
+    "description": "Le joncheruine (en anglais : wrackspurt) est une créature minuscule que l'on ne voit qu'avec des lunettes spéciales, qui entre par les oreilles d'un humain et lui embrouille le cerveau. Il est mentionné pour la première fois par Luna Lovegood dans le tome 6. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 36,
+    "nom": "Jobarbille",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le jobarbille (en anglais : jobberknoll) est un minuscule oiseau bleu foncé tacheté. Il ne produit aucun son au cours de sa vie. Mais au moment de sa mort, il reproduit tous les sons qu'il a entendus en un long cri perçant. Ses plumes entrent dans la composition de certaines potions (Veritaserum et potions de mémoire). ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 18,
+        "nom": "Europe"
+      },
+      {
+        "id": 21,
+        "nom": "Amérique du Nord"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "nom": "Kelpy",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le Kelpy (ou Kelpie) est un démon des eaux métamorphe. Il apparaît le plus souvent sous la forme d'un cheval possédant une crinière constituée de joncs. Le Kelpy peut inviter, dans un premier temps, un humain à monter sur son dos, puis plonger et entraîner le cavalier au fond de l'eau pour le dévorer. Un sorcier peut contrôler un Kelpy en lui plaçant une bride sur la tête à l'aide d'un sortilège de Mise en place, afin de le rendre docile. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 31,
+        "nom": "Grande-Bretagne"
+      },
+      {
+        "id": 32,
+        "nom": "Irlande"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "nom": "Licorne",
+    "apparition": "Harry Potter à l'école des sorciers.",
+    "description": "Les licornes sont des créatures aux puissants pouvoirs magiques. Le sang de licorne est un élixir de longue vie ; cependant tuer une licorne est un acte ignoble et celui qui se risque à le faire ne gagnera qu'une demi-vie et une vie maudite. Pour commettre un tel crime il faut n'avoir rien à perdre et tout à gagner. Le sang de licorne permet de survivre même si on est sur le point de mourir, mais à un prix terrible, car il faut tuer un être pur et sans défense. Les crins et les cornes de licorne sont utilisés dans les potions magiques. Les crins peuvent être utilisés pour constituer le cœur d'une baguette magique. La baguette de Ron en contient un. Un crin de licorne vaut très cher sur le marché, c'est pourquoi Slughorn est fasciné de découvrir que Hagrid en possède plusieurs mais qu'il se contente de les utiliser comme bandages pour les animaux blessés. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 17,
+        "nom": "Forêts"
+      },
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "nom": "Loup-garou",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Les loups-garous (ou lycanthropes) sont des êtres humains qui ont été mordus par un loup-garou avant d'en devenir un. Dans la saga Harry Potter, les loups-garous les plus cités sont Fenrir Greyback et Remus Lupin. Contrairement aux Animagi, les lycanthropes ne peuvent pas contrôler leur transformation ; cette dernière s'effectue à chaque pleine lune, que le sorcier le veuille ou non. À partir du moment où il est transformé, le loup-garou ne peut plus se gérer ; il pourrait mordre voire tuer ses amis les plus proches sans discernement. Une morsure peut être mortelle, mais la plupart du temps, elle condamne la victime à devenir un loup-garou à son tour. Les récentes recherches ont permis de mettre au point une potion appelée Potion Tue-loup qui n'empêche pas la transformation mais permet au loup-garou de se contrôler durant celle-ci. Il se transforme alors en un simple loup terrorisé qui se cache pendant toute la durée de la transformation. ",
+    "classifications": {
+      "id": 5,
+      "categorie": "XXXXX",
+      "description": "Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+    },
+    "habitats": [
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "nom": "Lutin de Cornouailles",
+    "apparition": "Harry Potter et la Chambre des secrets.",
+    "description": "Les lutins de Cornouailles (Pixies en version originale) sont des créatures diablotins originaires de Cornouailles d'une couleur bleu électrique. Ils peuvent mesurer jusqu'à vingt centimètres. Ils sont très impolis et adorent faire des farces. Bien que n'ayant pas d'ailes (dans le film ils ont des ailes transparentes), ils peuvent voler. Ces créatures vivipares poussent des jacassements aigus que seuls leurs semblables peuvent comprendre. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 16,
+        "nom": "Angleterre"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "nom": "Malagrif tacheté",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le Malagrif tacheté (en anglais : Mackled Malaclaw) est une créature terrestre ressemblant à un homard. On ne doit en aucun cas manger le Malagrif tacheté car sa chair est impropre à la consommation humaine et provoque une forte fièvre et une urticaire verdâtre. Sa morsure entraîne un effet secondaire surprenant chez la victime en la rendant malchanceuse pendant une période qui peut durer jusqu'à une semaine. Il vaut mieux éviter les paris, jeux de hasard ou toute tentative à l'issue incertaine car ils seraient voués à l'échec. Le Malagrif tacheté a une couleur gris clair tachetée de points vert foncé et fait à peu près trente centimètres. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 15,
+        "nom": "Côtes rocheuses"
+      },
+      {
+        "id": 18,
+        "nom": "Europe"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "nom": "Niffleur",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Les niffleurs sont des animaux à la fourrure noire et bouffante et au museau allongé qui creusent le sol comme s'ils nageaient. Ils ont une apparence semblable à celle des ornithorynques. Les niffleurs sont très attirés par tout ce qui brille et sont donc très utiles pour dénicher des trésors, les gobelins en possèdent souvent pour cette raison. Les niffleurs vivent dans des terriers à cinq ou six mètres sous terre et ont des portées de six à huit petits. Fred et George Weasley laissèrent deux niffleurs à Lee Jordan en partant de l'école. Ce dernier les fait léviter jusqu'à la fenêtre du bureau de Dolores Ombrage où ils causent de joyeux dégâts avant de l'attaquer lorsqu'elle entre dans la pièce afin de lui dérober les bagues qu'elle porte aux doigts. Dans le film Les Animaux fantastiques, Norbert Dragonneau possède un niffleur qui s'échappe de sa valise peu après son arrivée à New York et s'infiltre dans une banque où il vole une quantité phénoménale d'argent avant que son propriétaire ne le rattrape et lui fasse rendre son butin. Il fera la même chose un jour plus tard dans une bijouterie. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 14,
+        "nom": "Grande-Bretagne"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "nom": "Noueux",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Le noueux (ou knarl) est un animal magique ressemblant au hérisson. La seule différence est que contrairement au hérisson, le noueux n'accepte pas la nourriture qu'on lui offre. Au contraire, il prendra ça pour une tentative d'empoisonnement. Plusieurs enfants moldus ont été accusés d'avoir saccagé des jardins alors que le coupable était un noueux offensé. Dans Harry Potter et l'Ordre du phénix, Mondingus Fletcher tente de vendre à deux mornilles un sac de piquants de noueux aux jumeaux Weasley. Durant l'épreuve de BUSE de soins aux créatures magiques, les élèves doivent repérer un noueux parmi des hérissons avec du lait. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 20,
+        "nom": "Europe du Nord"
+      },
+      {
+        "id": 35,
+        "nom": "Amérique"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "nom": "Nundu",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Considéré par la communauté magique comme étant la créature la plus dangereuse au monde, le nundu ressemble vaguement au léopard. Il parvient à s'approcher silencieusement de ses victimes, qu'elles soient humaines ou animales. De plus, son souffle propage des maladies mortelles. Les efforts combinés d'une centaine de sorciers expérimentés sont nécessaires pour venir à bout d'un nundu. Dans le film Les Animaux fantastiques, Norbert Dragonneau possède un nundu dans sa valise, qui vit dans une jungle. J. K. Rowling s'est inspirée de la légende du nunda ou mngwa d'Afrique de l'est pour créer le nundu. ",
+    "classifications": {
+      "id": 5,
+      "categorie": "XXXXX",
+      "description": "Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+    },
+    "habitats": [
+      {
+        "id": 12,
+        "nom": "Afrique orientale"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "nom": "Occamy",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "L'occamy est une sorte d'oiseau au corps serpentin, pouvant atteindre quatre mètres cinquante de longueur. Il est pourvu de plumes et se déplace sur deux pattes. Il se nourrit de rats, d'oiseaux ou de petits singes. Les coquilles d'œufs d'occamy, en argent pur, ont beaucoup de valeur et sont très recherchées. Dans le film Les Animaux fantastiques, Norbert Dragonneau et Jacob Kowalski prennent soin d'un bébé occamy. À la fin de l'épisode, pour aider Jacob à ouvrir sa boulangerie, Norbert lui offre une valise remplie de coquilles d’œuf d'occamy. Dans le film, le corps de la créature est bleu et ses ailes violettes. Elle est décrite comme étant choranaptyxique, sa taille variant en fonction de l'espace dont elle dispose. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 24,
+        "nom": "Extrême-Orient"
+      },
+      {
+        "id": 11,
+        "nom": "Inde"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "nom": "Oiseau-tonnerre",
+    "apparition": "Les Animaux fantastiques (film, 2016).",
+    "description": "Dans le film Les Animaux fantastiques, l'oiseau-tonnerre (en anglais Thunderbird), est un oiseau américain proche du phénix. Il est capable de ressentir l'approche d'un danger et de créer des tempêtes en plein vol. Tout comme le phénix, ses plumes peuvent être utilisées dans la fabrication de baguettes magiques. Le magizoologiste Norbert Dragonneau sauve un oiseau-tonnerre de trafiquants égyptiens. Il le nomme Frank et se promet de le ramener en Arizona, l'habitat naturel des oiseaux-tonnerre. ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 10,
+        "nom": "Arizona"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "nom": "Pitiponk",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Le pitiponk est un animal magique qui vit dans les marécages. Il n'a qu'un seul pied et il profite de son apparence (petit, frêle, un corps constitué de filets de fumée, qui pourrait faire croire qu'il est inoffensif) pour attirer les voyageurs avec sa lanterne et les perdre dans les marécages. Sa lanterne lui permet de tenir en équilibre et lui sert également de cœur. Il est peut-être inspiré des feu follets des légendes européennes. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 48,
+    "nom": "Povrebine",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le Povrebine (en anglais Pogrebin) est un démon mesurant trente centimètres de hauteur. Il possède un corps velu à l'exception de sa tête. Il peut avoir l'apparence d'un petit caillou rond et brillant lorsqu'il se baisse. C'est une créature qui est attirée par les humains et qui aime les suivre, provoquant quelquefois un état de léthargie et de désespoir chez ces personnes. La créature profite alors de cette faiblesse passagère pour tenter de les dévorer. Un sorcier, pour le neutraliser, peut utiliser un sortilège de stupéfixion ou tout simplement lui donner un coup de pied. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 9,
+        "nom": "Russie"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "nom": "Quintaped",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Selon une légende décrite dans le livre Vie et habitat des animaux fantastiques, l'île de Drear était autrefois habitée par deux familles de sorciers, le Clan McClivert et le Clan MacBoon. Un duel d'ivrognes entre Dugald McClivert et Quintius MacBoon se termina par la mort de Dugald. En représailles, des membres du clan de McClivert auraient cerné une nuit la maison des MacBoon et métamorphosé chaque membre de la famille en une monstrueuse créature à cinq pattes. Mais les métamorphosés seraient devenus bien plus dangereux sous cette forme, résistant de surcroît à toute tentative pour leur faire retrouver leur apparence normale. Les monstres à cinq pattes auraient été jusqu'à tuer tous les McClivert, si bien qu'il ne resta plus aucun humain sur l'île. En raison de la présence des Quintapeds, l'île de Drear-la-Lugubre n'est située sur aucune carte. ",
+    "classifications": {
+      "id": 5,
+      "categorie": "XXXXX",
+      "description": "Connu pour être un tueur de sorcier / Impossible à dresser ou à domestiquer"
+    },
+    "habitats": [
+      {
+        "id": 7,
+        "nom": "Pointe nord de l'Écosse"
+      },
+      {
+        "id": 8,
+        "nom": "île fictive de Drear-la-Lugubre"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "nom": "Scroutt à pétard",
+    "apparition": "Harry Potter et la Coupe de feu.",
+    "description": "Le Scroutt à pétard (en anglais Blast-Ended Skrewt) est une créature magique créée par Rubeus Hagrid, par le croisement d'une manticore et d'un crabe de feu. Il ressemble à un homard mais il n'a pas de tête et un grand nombre de petites pattes situées à des endroits inhabituels. Mesurant un mètre de long et dégageant une forte odeur de poisson pourri, il fait jaillir des étincelles de ses extrémités. Il peut exploser à tout moment et plus il est grand plus l'explosion est violente. Les mâles possèdent des dards tandis que les femelles possèdent une ventouse sur le ventre afin de pouvoir sucer le sang de leurs proies. Agressifs, il arrive aux Scroutts de s'entretuer. Les Scroutts font quinze centimètres environ à l'éclosion et ont un aspect gluant et font au moins trois mètres et ont une carapace grise à l'âge adulte. Ils font l'objet d'un cours de Soins aux créatures magiques à Poudlard ; un spécimen est introduit dans le labyrinthe de la troisième tâche du Tournoi des Trois Sorciers (Harry Potter et la coupe de feu). ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 51,
+    "nom": "Serpencendre",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Les serpencendres apparaissent quand on fait brûler un feu magique trop longtemps sans surveillance. Ils ne vivent qu'une heure pendant laquelle ils  se cachent dans des recoins de la maison pour y pondre leurs œufs et, si ceux-ci réussissent à grandir sans être repérés et chassés, ils enflamment la maison. Le seul moyen de s'en débarrasser est de les congeler à l'aide de la magie. Ils sont inspirés des salamandres des légendes occidentales. Dans le film Les Animaux Fantastiques, Norbert Dragonneau offre au gobelin Gnarlak un œuf de serpencendre congelé en échange d'informations sur la localisation de sa demiguise, Dougal. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "nom": "Sharak",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le Sharak (en anglais : Shrake) est un poisson couvert d'épines qui peuple les eaux. On pense qu'il a été créé pour se venger de pêcheurs moldus qui avaient insulté des marins sorciers au début du XIXe siècle. Depuis ce jour, tous les Moldus qui pêchent dans cette zone ramènent des filets vides et déchirés par les Sharaks qui nagent au fond des eaux. ",
+    "classifications": {
+      "id": 3,
+      "categorie": "XXX",
+      "description": "Ne pose pas de problème à un sorcier compétent"
+    },
+    "habitats": [
+      {
+        "id": 6,
+        "nom": "Océan Atlantique"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "nom": "Sirène",
+    "apparition": "Harry Potter et la Coupe de feu.",
+    "description": "Avant la seconde tâche dans Harry Potter et la Coupe de Feu, Harry découvre que lorsqu’il met l’œuf d’or dans l’eau du bain de la salle de bain des préfets, le son de l’œuf n’est plus un hurlement strident, mais un chœur de voix étranges. Cherchant partout ce qui pourrait avoir une voix humaine, il fixe le tableau de la sirène endormie au mur de la salle de bain. Harry s’aperçoit plus tard que les sirènes ne ressemblent pas à celle représentée sur le tableau. Ces êtres de l’eau ont la peau grisâtre et de longs cheveux verts. Leurs yeux sont jaunes, tout comme leurs dents cassées. Elles portent autour du cou des cordes fabriquées avec des cailloux et leur puissante queue de poisson est argentée. ",
+    "classifications": null,
+    "habitats": null
+  },
+  {
+    "id": 54,
+    "nom": "Sombral",
+    "apparition": "Vie et habitat des animaux fantastiques (2001).",
+    "description": "Les sombrals (en anglais : Thestrals)  sont des créatures ressemblant à des pégases démoniaques mais dépourvus de toute chair et de couleur noir. La tête d'un sombral ressemble à celle d'un dragon et d'un cheval et comporte des yeux blancs sans pupille qui brillent dans le noir et qui ont un regard fixe et vide. Ils possèdent une paire d'ailes noires, à la surface lisse comme celles des chauve-souris, à la hauteur du garrot. Ils sont réputés pour porter malheur car seuls ceux qui ont vu mourir quelqu'un (et en ont fait leur deuil) peuvent les voir. Les sombrals sont des créatures très intelligentes qui possèdent un sens de l'orientation très développé, ce qui fait d'eux les montures idéales pour se déplacer dans les airs. Il en existe tout un troupeau dans la Forêt Interdite de Poudlard. Élevés par Hagrid, ils font l'objet d'un cours de Soins aux créatures magiques. Ce sont eux qui tirent les calèches qui emmènent les élèves au château le jour de la rentrée scolaire. Ils ont cependant la réputation de porter malheur et le Ministère de la Magie les considère comme dangereux à cause de leur attirance pour le sang. Bien que n'étant visibles que par ceux qui ont vu quelqu'un mourir, ils peuvent toutefois être montés par n'importe qui, les personnes ne les voyant pas ayant alors l'impression de voler sans support. À la fin du cinquième tome, Harry et les membres de l'Armée de Dumbledore voyagent à dos de sombral jusqu'au Ministère de la Magie à Londres pour venir au secours de Sirius Black. Des sombrals sont également utilisés, en plus des balais et de la moto volante, au début de Harry Potter et les Reliques de la Mort durant l'opération d'évacuation de Harry de la maison de son oncle, afin de déplacer les faux Harry Potter et leurrer les Mangemorts. Dans Le tome 7 on apprend que La Baguette De Sureau l'une de trois Reliques de la mort a un cœur composé d'un poil de queue de Sombral. J. K. Rowling les décrit, dans son livre Les Animaux fantastiques comme une sous-espèce des chevaux volants baptisée Thestral « robe noire, douée du pouvoir de se rendre invisible et considérée par de nombreux sorciers comme un signe de malchance ». Il existe d'autres espèces de chevaux ailés : l'Ethonan brun, le Gronian gris et l'Abraxan palomino. ",
+    "classifications": {
+      "id": 6,
+      "categorie": "XX-XXXX",
+      "description": "Chevaux ailés"
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "nom": "Sphinx",
+    "apparition": "Harry Potter et la Coupe de feu.",
+    "description": "Le sphinx tel qu'il est décrit dans les livres Harry Potter emprunte à la fois à la mythologie égyptienne, pour son apparence physique (un lion à tête humaine) et à la mythologie grecque pour son comportement (gout pour les énigmes). Cette créature est douée de parole, capable de tenir une conversation et adore poser des énigmes et devinettes en tous genres. Néanmoins, elle est classée parmi les animaux magiques et non parmi les « êtres », à cause de sa nature violente. Les sphinx furent utilisés pendant des siècles comme gardiens de trésors par les sorciers. Certaines sources semblent même indiquer que cette espèce aurait été créée par les sorciers (probablement égyptiens) dans ce but. Ils furent également un temps utilisés à Gringotts comme gardiens de coffre. Dans Harry Potter et la Coupe de feu, Harry croise une sphinge (sphinx féminin) dans le labyrinthe de l'épreuve finale. Elle lui pose une énigme, qu'il réussit à résoudre, lui permettant de poursuivre son chemin vers la coupe. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 5,
+        "nom": "Égypte"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "nom": "Strangulot",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Le strangulot (en anglais Grindylow) est une créature aquatique de couleur vert pâle, dotée de cornes, que l'on trouve dans les lacs de Grande-Bretagne et d'Irlande. De nature agressive, ils utilisent leurs doigts fins et longs pour étrangler leur proie. Certains d'entre eux vivent dans le lac de Poudlard et les champions du Tournoi des trois sorciers ont dû leur faire face lors de la deuxième tâche. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 4,
+        "nom": "Lacs"
+      },
+      {
+        "id": 31,
+        "nom": "Grande-Bretagne"
+      },
+      {
+        "id": 32,
+        "nom": "Irlande"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "nom": "Troll",
+    "apparition": "Harry Potter à l'école des sorciers.",
+    "description": "Dans l'univers de Harry Potter, les trolls sont de grandes créatures à l'apparence humanoïde pouvant atteindre une taille de trois mètres cinquante et peser plus d'une tonne. Le troll est généralement dénué d'intelligence et très stupide, il possède un caractère violent et imprévisible. Les trolls communiquent entre eux via un langage rudimentaire constitué de grognements. Il existe plusieurs variétés de trolls : les trolls des forêts, les trolls des montagnes ou les trolls des rivières. Cette créature est présente à plusieurs reprises au cours de la saga, notamment dans le premier tome, où un troll des montagnes se retrouve dans Poudlard le soir d'Halloween et est combattu victorieusement par Harry, Ron et Hermione (cet épisode marquera par ailleurs les débuts de l'amitié entre les trois personnages). ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 3,
+        "nom": "Scandinavie"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "nom": "Vélane",
+    "apparition": "Harry Potter et la Coupe de feu.",
+    "description": "Une Vélane (en anglais Veela, une façon d'écrire la vila slave) est un être ressemblant à une femme d'une grande beauté (elles sont décrites comme ayant des cheveux blonds argentés, des yeux bleus et une peau qui a la couleur du clair de lune) et d'un charme incomparable. Lorsqu'elles chantent, elles envoûtent presque tous les hommes  qui les écoutent. Elles sont considérées comme des créatures typiques de la Bulgarie puisque ce sont les mascottes de l'équipe Bulgare de Quidditch lors de la Coupe du Monde de Quidditch. Mais si les Vélanes sont énervées, elles perdent alors toute leur beauté : leurs corps entier se transforme en celui d'un oiseau, et elles projettent des boules de feu. Les cheveux de Vélane ont apparemment des propriétés magiques, puisqu'ils peuvent être utilisées en tant qu'élément magiques d'une baguette de sorcier au même titre qu'un crin de licorne ou une plume de phénix. Toutefois, d'après Ollivander, les cheveux de Vélane donnent un mauvais caractère aux baguettes. On sait également que les Vélanes sont inter-fécondes avec les êtres humains puisque la grand-mère maternelle de Fleur Delacour en est une. Ce détail évoqué dans le roman n'est pas précisé dans l'adaptation en film de Harry Potter et la Coupe de feu mais l'était néanmoins dans la campagne de communication au sujet du film. Il semblerait que les Vélanes (ou du moins leur descendance) soient considérées comme humaines, car elles ont le droit de manier une baguette. Elles transmettent à cette descendance leur charme magique (Fleur Delacour, bien que n'étant pas entièrement Vélane, est capable de s'en servir dans une tentative de se faire inviter au bal par Cedric Diggory). Les Vélanes de l'univers de Harry Potter sont inspirées du folklore de l'Europe de l'Est, ainsi que des sirènes de la mythologie grecque. ",
+    "classifications": null,
+    "habitats": [
+      {
+        "id": 2,
+        "nom": "Bulgarie"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "nom": "Veracrasse",
+    "apparition": "Harry Potter et le Prisonnier d'Azkaban.",
+    "description": "Un veracrasse (en anglais flobberworm) est un ver épais de couleur marron, pouvant atteindre vingt-cinq centimètres, qui ne possède pas de dents et qui est donc végétarien (il aime particulièrement la laitue). Il sécrète une substance parfois utilisée pour lier les potions. Hagrid, déstabilisé par l'incident avec les hippogriffes, choisit le veracrasse comme sujet pour sa troisième année pendant tout un semestre, ce qui est une pure perte de temps car les veracrasses aiment rester seuls à ne rien faire, et sont donc des animaux profondément ennuyeux. ",
+    "classifications": {
+      "id": 1,
+      "categorie": "X",
+      "description": "Animal ennuyeux"
+    },
+    "habitats": null
+  },
+  {
+    "id": 60,
+    "nom": "Veaudelune",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Le Veaudelune (en anglais : Mooncalf) est une créature d'une très grande timidité qui n'émerge de son terrier qu'à la pleine lune. C'est un animal avec un long cou, des yeux globuleux, un petit corps et des pieds plats. Debout sur ses pattes arrière, le Veaudelune se livre au clair de lune à des danses compliquées dans des lieux isolés, qui semblent être des préludes à l'accouplement. Ces danses laissent parfois dans les champs de blé des motifs géométriques qui rendent les Moldus perplexes. Lorsqu'on recueille ses crottes argentées avant le lever du soleil et qu'on les répand sur des herbes magiques et des massifs de fleurs, ces plantes poussent à une vitesse extraordinaire en devenant exceptionnellement robustes. Dans le film Les Animaux fantastiques, Norbert Dragonneau héberge dans sa valise magique un troupeau de Veaudelunes. ",
+    "classifications": {
+      "id": 2,
+      "categorie": "XX",
+      "description": "Inoffensif / Peut être domestiqué"
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "nom": "Vivet doré",
+    "apparition": "Vie et habitat des animaux fantastiques.",
+    "description": "Un Vivet doré (en anglais Golden Snidget) est un minuscule oiseau sphérique, très agile, pouvant se montrer très rapide et très mobile. Comme son nom l'indique, il a les plumes dorées et des yeux rouge rubis et se fait rechercher pour ces caractéristiques, si bien qu'il était en voie d'extinction avant qu'il ne devienne une espèce protégée. Au Quidditch, les attrapeurs devaient s'emparer du vivet doré afin de pouvoir gagner 150 gallions d'or et mettre fin au match. Plus tard, il s'agira de 150 points. En général, l'oiseau mourait dès qu'il se faisait attraper par un joueur. Elfrida Clagg, chef du Conseil des sorciers au XVIIe siècle, rendit illégale l'utilisation de cet animal et le fit remplacer par un objet, le Vif d'or, inspiré de l'oiseau. ",
+    "classifications": {
+      "id": 4,
+      "categorie": "XXXX",
+      "description": null
+    },
+    "habitats": [
+      {
+        "id": 1,
+        "nom": "Monde entier"
+      }
+    ]
+  }
+]
