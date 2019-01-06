@@ -64,6 +64,25 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.asciidoctor</groupId>
+				<artifactId>asciidoctor-maven-plugin</artifactId>
+				<version>1.5.7.1</version>
+				<executions>
+					<execution>
+						<id>render-asciidoc</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>process-asciidoc</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<sourceDirectory>src/main/docs</sourceDirectory>
+					<outputDirectory>target/docbook</outputDirectory>
+					<backend>html</backend>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
