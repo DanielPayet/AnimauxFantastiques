@@ -1,3 +1,11 @@
+GET http://localhost:8080/beasts?location=Monde entier&category=XX
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-01-07T012302.200.json
+
+###
+
 DELETE http://localhost:8080/beasts/62
 
 ###
@@ -649,21 +657,6 @@ Content-Type: application/json
 }
 
 <> 2019-01-05T112017.201.json
-
-###
-
-POST http://localhost:8080/beasts/
-Content-Type: application/json
-
-{
-  "name": "ThomasSauvage",
-  "classificationId": null,
-  "locationId": null,
-  "firstSeen": "Harry Potter 8",
-  "description": "Thomas code php sauvage"
-}
-
-<> 2019-01-05T111355.201.json
 
 ###
 
